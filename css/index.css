@@ -219,6 +219,8 @@ footer {
 @media (max-width: 500px) {
   .home .space-images img {
     width: 100%;
+    height: 33rem;
+    margin: 20px 30px;
   }
 }
 @media (max-width: 500px) {
@@ -283,6 +285,12 @@ footer {
 }
 .space-view {
   border-radius: 8px;
+  width: 100%;
+}
+@media (max-width: 500px) {
+  .space-view {
+    height: 30%;
+  }
 }
 .btn {
   background-color: #001a33;
@@ -293,13 +301,19 @@ footer {
   text-decoration: none;
   display: flex;
   align-items: center;
+  justify-content: center;
   width: 11rem;
   height: 4rem;
   font-weight: bold;
   border: 1px solid black;
 }
 @media (max-width: 500px) {
-  max-width: 100%;
+  .btn {
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+    height: 7rem;
+  }
 }
 :hover {
   background-color: white;
