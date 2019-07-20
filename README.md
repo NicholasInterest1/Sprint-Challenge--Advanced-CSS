@@ -34,13 +34,27 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the difference between an adaptive website and a fully responsive website?
 
+    1a. Adaptive web design uses distinct layouts for multiple screen sizes, the layout largely depends on the screen size being used so with each of these sizes in mind a     layout would have to be designed for it.
+
+    1b. Responsive web design adapts to the size of the screen no matter what the target device screen size is. The layout is ‘fluid’ and uses CSS media to change styles,      this ‘fluid’ grid enables the page to resize its width and height to adapt to different screen sizes and show correctly.
+
 2. Describe what it means to be mobile first vs desktop first.
+
+    2a. “Mobile first”, as the name suggests, means that we start the product design from the mobile end which has more restrictions, then expand its features to create a      tablet or desktop version.
+
+    2b. Instead, the former is actually a design strategy (mobile-first), while the latter is the result of a technical approach (responsive). When a business develops its website, the design is often based on the assumption that visitors will browse it on a desktop computer.
 
 3. What does `font-size: 62.5%` in the `html` tag do for us when using `rem` units?
 
+    • 62.5% of 16px is 10px. Which makes 1rem = 10px. So therefore easier math calculations.
+
 4. How would you describe preprocessing to someone new to CSS?
 
+    • A preprocessor is a program that takes one type of data and converts it to another type of data. In the case of HTML and CSS, some of the more popular preprocessor languages include Haml and Sass . Haml is processed into HTML and Sass is processed into CSS.
+
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+Mixins is my favorite and was my most troublesome one as well.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
